@@ -16,7 +16,7 @@ const createRequestToken = async(): Promise<RequestResponse> => {
       Authorization: `Bearer ${accessKey}`
     },
     body: JSON.stringify({
-      redirect_to: `http://localhost:5173/?approved=true`,
+      redirect_to: `https://moovie-six.vercel.app/?approved=true`,
     })
   })
 
